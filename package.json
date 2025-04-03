@@ -1,0 +1,33 @@
+{
+  "name": "rocketsear_trilha_nodejs",
+  "version": "1.0.0",
+  "description": "Trilha de Node.js e diversos Frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsx": "tsx --watch --inspect --respawn src/server.ts",
+    "lint": "eslint --fix --ext .ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbcamargo94/rocketsear_trilha_nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbcamargo94/rocketsear_trilha_nodejs/issues"
+  },
+  "homepage": "https://github.com/lbcamargo94/rocketsear_trilha_nodejs#readme",
+  "dependencies": {
+    "fastify": "^5.2.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.13.17",
+    "eslint": "^8.57.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
